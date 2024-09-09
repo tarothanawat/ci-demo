@@ -1,4 +1,5 @@
-[![Python application](https://github.com/tarothanawat/ci-demo/actions/workflows/run-flake8.yml/badge.svg)](https://github.com/tarothanawat/ci-demo/actions/workflows/run-flake8.yml) 
+[![Python application](https://github.com/tarothanawat/ci-demo/actions/workflows/run-flake8.yml/badge.svg)](https://github.com/tarothanawat/ci-demo/actions/workflows/run-flake8.yml) [![Run unit tests](https://github.com/tarothanawat/ci-demo/actions/workflows/python-unittest.yml/badge.svg)](https://github.com/tarothanawat/ci-demo/actions/workflows/python-unittest.yml)
+
 Continuous Integration Demo
 ===========================
 
