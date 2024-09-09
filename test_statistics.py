@@ -1,5 +1,5 @@
 from unittest import TestCase
-from statistics import variance, stdev
+from statistics import variance, stddev
 from math import sqrt
 
 class StatisticsTest(TestCase):
@@ -19,11 +19,11 @@ class StatisticsTest(TestCase):
 
     def test_stdev(self):
         # standard deviation of a single value should be zero
-        self.assertEqual(0.0, stdev([10.0]))
+        self.assertEqual(0.0, stddev([10.0]))
         # simple test
-        self.assertEqual(2.0, stdev([1, 5]))
+        self.assertEqual(2.0, stddev([1, 5]))
         # variance([0, 0.5, 1, 1.5, 2.0]) is 0.5
-        self.assertEqual(sqrt(0.5), stdev([0, 0.5, 1, 1.5, 2]))
+        self.assertEqual(sqrt(0.5), stddev([0, 0.5, 1, 1.5, 2]))
 
 
 if __name__ == '__main__':
