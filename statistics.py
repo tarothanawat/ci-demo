@@ -1,4 +1,4 @@
-""" This module contain functions often used in statistics """
+"""This module contain functions often used in statistics."""
 from math import sqrt
 
 
@@ -36,11 +36,11 @@ def variance(data):
     """
     n = len(data)
     if n == 0:
-        raise ValueError("List must contain at least one value")
+        raise ValueError("List must contain at least one value.")
     avg = average(data)
     return sum([(x-avg)**2 for x in data])/n
 
 
 def stddev(data):
-    """the standard deviation of a list of values"""
+    """the standard deviation of a list of values."""
     return sqrt(variance(data))
