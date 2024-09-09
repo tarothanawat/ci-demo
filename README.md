@@ -1,3 +1,4 @@
+[![Python application](https://github.com/tarothanawat/ci-demo/actions/workflows/run-flake8.yml/badge.svg)](https://github.com/tarothanawat/ci-demo/actions/workflows/run-flake8.yml) 
 Continuous Integration Demo
 ===========================
 
